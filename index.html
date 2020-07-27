@@ -420,11 +420,13 @@
           <div class="col-lg-4 col-md-4">
             <div class="feature-text round shadow text-center xs-mb-40">
               <div class="feature-icon">
-                <span class="fa fa-legal theme-color"></span>
+                <span class="fa fa-plane theme-color"></span>
               </div>
               <div class="feature-info">
-                <h4 class="text-back pb-10">Legal translation</h4>
-                <p>Professional translation of agreements, contracts, statutes.</p>
+                <h4 class="text-back pb-10">Travel And Tourism Translation</h4>
+                <p>Bagiroff Translations can help hospitality service providers, 
+                  real estate and tourist agencies to connect with potential customers all over the world. We translate travel guides, 
+                  brochures, fliers and newsletters for a diverse businesses in the tourism sector.</p>
               </div>
             </div>
           </div>
@@ -440,9 +442,45 @@
             </div>
           </div>
         </div>
+        <div id="extra_services" class="row" style="display: none;">
+          <div class="col-lg-4 col-md-4">
+            <div class="feature-text round shadow text-center xs-mb-40">
+              <div class="feature-icon">
+                <span class="fa fa-phone theme-color"></span>
+              </div>
+              <div class="feature-info">
+                <h4 class="text-back pb-10">Telephone calls</h4>
+                <p>Translation of telephone conferences in ONLINE mode, 
+                  implementation of telephone conferences.</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-4">
+            <div class="feature-text round shadow text-center xs-mb-40">
+              <div class="feature-icon">
+                <span class="fa fa-legal theme-color"></span>
+              </div>
+              <div class="feature-info">
+                <h4 class="text-back pb-10">Legal translation</h4>
+                <p>Professional translation of agreements, contracts, statutes.</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-4">
+            <div class="feature-text round shadow text-center">
+              <div class="feature-icon">
+                <span class="fa fa-commenting theme-color"></span>
+              </div>
+              <div class="feature-info">
+                <h4 class="text-back pb-10">No Name</h4>
+                <p>Translation of reports, communiqué, speeches, presentations, press releases, agendas.</p>
+              </div>
+            </div>
+          </div>
+        </div>
         <div class="row">
           <div class="col-lg-12 col-md-12 text-center mt-60">
-            <a href="#" class="button icon">All services <i class="fa fa-angle-right"></i></a>
+            <button id='allservices' class="button icon">All services <i class="fa fa-angle-down"></i></button>
           </div>
         </div>
       </div>
@@ -1087,6 +1125,18 @@ counter-->
 
   <!-- custom -->
   <script src="assets/js/custom.js"></script>
+
+  <script>
+    $("#allservices").click(function(){
+      if($('#extra_services').attr('style') == 'display: none;'){
+        $('#extra_services').show(2500);
+        $('#allservices').html('Collapse <i class="fa fa-angle-up"></i>')
+      } else {
+        $('#extra_services').hide(2500);
+        $('#allservices').html('All services <i class="fa fa-angle-down"></i>')
+      }
+    })
+  </script>
 
 </body>
 
