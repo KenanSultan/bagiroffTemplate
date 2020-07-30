@@ -38,6 +38,7 @@ NOTE: This file contains Section titles CSS.*/
 .section-title:nth-child(odd) .title-effect::before { background: #BF4D4D; }
 
 section:hover .title-effect::before, section:focus .title-effect::before {transform: scale3d(1,1,1); }
+section:hover .title-effect:nth-child(odd), section:focus .title-effect:nth-child(odd) { color: #BF4D4D; }
 section:hover .title-effect:nth-child(even), section:focus .title-effect:nth-child(even) { color: #BF4D4D; }
 
  /*dark*/

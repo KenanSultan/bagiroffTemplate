@@ -720,7 +720,7 @@ header.one-page { position: relative; background: #323232; }
 .services-text-box-blue, .services-text-box-black {padding: 50px 30px;}
 .highlights-phone {margin-top: 20px;}
 .mobile-slider h5{font-size: 14px;}
-.service-blog b{right: 0; font-size: 250px;}
+.service-blog b{right: 28px; font-size: 150px;}
 .service-blog.left b{left: 0;}
 /*blog pages*/
 .blog.blog-grid-3-column .social.float-right { float: none; margin-top: 10px; display: block; width: 100%; }
@@ -1972,7 +1972,7 @@ h2 {font-size: 22px; line-height: 30px;}
  .feature-step-2-title-2-right {width: 100%;}
 .feature-step-2-box {padding:20px 10px;}
 .feature-step-2-box p{font-size: 13px;}
-.service-blog b {font-size: 220px;}
+.service-blog b {font-size: 120px;}
 /*blog*/
 .blog .timeline > li > .timeline-badge { font-size: 15px; height: 44px; line-height: 12px; width: 44px; }
 .blog ul.timeline:before { left: 27px; }
