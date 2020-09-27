@@ -1722,7 +1722,7 @@ img#logo-footer{ height: 40px; width: auto; }
         V.1.2    inner page
 **************************************/
 /* about-05 */
-.about-05-split .shop-split-content { padding: 100px 0; }
+.about-05-split .shop-split-content { padding: 40px 0; }
 /*about-mission*/
 .about-mission .popup-video-image a i { position: relative; top: inherit; left: inherit; bottom: inherit; right: inherit; }
 .about-mission .popup-content { position: absolute; bottom: 0; padding: 30px 130px 30px 30px; }
